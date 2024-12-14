@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  
+    font-family: 'Poppins', sans-serif;
+    padding-top: 80px;
+    background-color: #f0f0f0;
+}
+
+
+.registerWindow {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.registerHeader {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"]
+{
+    border: 1px solid silver;
+    width: calc(100% - 20px);
+    height: 30px;
+    border-radius: 2em;
+    font-size: 12pt;
+}
+input[type="date"],
+select {
+	 border: 1px solid silver;
+    width: calc(100% - 20px);
+    height: 30px;
+    border-radius: 2em;
+	}
+.input-half {
+    width: calc(50% - 10px); 
+}
+
+input[type="submit"] {
+    border: 1px solid silver;
+    width: calc(100% - 20px);
+    height: 30px;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.error-card {
+    border: 1px solid red;
+    background-color: #f8d7da;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color:rgb(89, 134, 199);
+    color: white;
+}
+
+.main-header .logo h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+
+
+
